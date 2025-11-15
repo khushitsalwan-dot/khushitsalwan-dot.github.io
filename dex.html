@@ -1,0 +1,37 @@
+<html ng-app="clickApp">
+<head>
+    <title>ng-click Examples</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .container { max-width: 600px; margin: 0 auto; }
+        .btn { padding: 10px 15px; margin: 5px; border: none; cursor: pointer; border-radius: 4px; }
+        .primary { background: #007bff; color: white; }
+        .danger { background: #dc3545; color: white; }
+        .success { background: #28a745; color: white; }
+        .counter { font-size: 24px; margin: 20px 0; padding: 10px; background: #f8f9fa; }
+        .message { padding: 10px; margin: 10px 0; border: 1px solid #ddd; }
+    </style>
+</head>
+<body ng-controller="ClickController">
+    <div class="container">
+<button ng-click="myFunction()">Click me</button>
+<button ng-click="isVisible = !isVisible">Toggle</button>
+<button ng-click="deleteItem(item.id)">Delete</button>
+<button ng-click="handleClick($event)">Click</button>
+<button ng-click="function1(); function2()">Multiple actions</button>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello World!</h1>
+  <p>This page has a light blue background.</p>
+</body>
+</html>
